@@ -1,0 +1,15 @@
+{
+    "name": "andimar/domus",
+    "autoload": {
+        "psr-4": {
+            "Andimar\\Domus\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Andrea Marzilli",
+            "email": "andimar@gmail.com"
+        }
+    ],
+    "require": {}
+}
