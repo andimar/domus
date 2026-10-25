@@ -1,15 +1,14 @@
 {
-    "name": "andimar/domus",
-    "autoload": {
-        "psr-4": {
-            "Andimar\\Domus\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Andrea Marzilli",
-            "email": "andimar@gmail.com"
-        }
-    ],
-    "require": {}
+  "name": "andimar/domus-medica",
+  "description": "Tema Domus Medica OOP e Twig",
+  "license": "GPL-2.0-or-later",
+  "require": {
+    "php": ">=8.2",
+    "twig/twig": "^3.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Domus\\": "src/"
+    }
+  }
 }
