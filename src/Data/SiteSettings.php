@@ -5,6 +5,8 @@ final class SiteSettings {
         return [
             'layout'=>['Aspetto','Versione della home','select','vicina',['base'=>'Base · approvata','obliqua'=>'Tagli di luce','vicina'=>'Vicina, ogni giorno']],
             'site_name'=>['Identità','Nome pubblico','text','Domus Medica'],
+            'seo_home_title'=>['SEO','Titolo homepage (vuoto: automatico)','text',''],
+            'seo_home_description'=>['SEO','Descrizione homepage (vuoto: automatica)','textarea',''],
             'phone'=>['Contatti','Telefono','text','06 23 11 843'],
             'email'=>['Contatti','Email','email','info@analisidomusmedica.it'],
             'facebook'=>['Contatti','Facebook','url','https://www.facebook.com/Domus-medica-1693121750953693/'],
@@ -39,6 +41,8 @@ final class SiteSettings {
             'contact_title'=>['Contatti','Titolo sezione','text','Contatti e indicazioni.'],
             'contact_text'=>['Contatti','Presentazione','textarea',"Dietro ogni analisi c’è una persona. Per questo uniamo il lavoro di medici, biologi e tecnici di laboratorio a un’accoglienza attenta e cordiale.\n\nNel nostro laboratorio a Centocelle trovi un punto di riferimento per le tue analisi cliniche, convenzionato con il Servizio Sanitario Nazionale."],
             'footer_text'=>['Footer','Testo','textarea',"La precisione della scienza.\nIl calore delle persone."],
+            'footer_show_login'=>['Footer','Mostra «Accedi» nel footer','select','0',['0'=>'Nascondi','1'=>'Mostra']],
+            'footer_login_url'=>['Footer','Link di «Accedi» (vuoto: login WordPress)','url',''],
         ];
     }
     public static function all(): array {

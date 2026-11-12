@@ -43,7 +43,6 @@ final class Home {
             'links'=>[
                 ['title'=>'Accedi','url'=>esc_url(wp_login_url())],
                 ['title'=>'Feed dei contenuti','url'=>esc_url(get_feed_link())],
-                ['title'=>'Feed dei commenti','url'=>esc_url(get_feed_link('comments_rss2'))],
                 ['title'=>'WordPress.org','url'=>'https://it.wordpress.org/'],
             ],
         ];
